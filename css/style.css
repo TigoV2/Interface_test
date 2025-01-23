@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body{
+        background-image: url("../images/background.png");
+}
+
 header {
     position: sticky;
     top: 0;
@@ -57,7 +61,7 @@ nav a#active {
 
 #dropdown-nav {
     display: none;
-    background-color: aqua;
+    background-color: violet;
 }
 #dropdown-nav li {
     margin: 5px;
@@ -70,4 +74,7 @@ nav a#active {
 #dropdown-color:hover {
     color: purple;
     border-bottom: 3px solid transparent;
+}
+main{
+    color: white;
 }
